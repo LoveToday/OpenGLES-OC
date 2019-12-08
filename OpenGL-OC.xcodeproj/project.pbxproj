@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D0779EC239B36E600EDE923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0779EB239B36E600EDE923 /* AppDelegate.m */; };
+		5D0779EF239B36E600EDE923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0779EE239B36E600EDE923 /* ViewController.m */; };
+		5D0779F2239B36E600EDE923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0779F0239B36E600EDE923 /* Main.storyboard */; };
+		5D0779F4239B36E800EDE923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D0779F3239B36E800EDE923 /* Assets.xcassets */; };
+		5D0779F7239B36E800EDE923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0779F5239B36E800EDE923 /* LaunchScreen.storyboard */; };
+		5D0779FA239B36E800EDE923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0779F9239B36E800EDE923 /* main.m */; };
+		5D077A02239B3CE700EDE923 /* OpenGLOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D077A01239B3CE700EDE923 /* OpenGLOneController.m */; };
+		5D077A05239B402A00EDE923 /* OpenGLTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D077A04239B402A00EDE923 /* OpenGLTwoController.m */; };
+		5D077A0A239B472B00EDE923 /* MyGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D077A09239B472B00EDE923 /* MyGLView.m */; };
+		5D077A0D239BA27E00EDE923 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D077A0C239BA27E00EDE923 /* GLESUtils.m */; };
+		5D077A10239BAE6900EDE923 /* shaderf.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D077A0E239BAE6900EDE923 /* shaderf.glsl */; };
+		5D077A11239BAE6900EDE923 /* shaderv.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D077A0F239BAE6900EDE923 /* shaderv.glsl */; };
+		5D0D5BB9239C8C4800137CFE /* TextureGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0D5BB8239C8C4800137CFE /* TextureGLView.m */; };
+		5D0D5BBC239C9ADA00137CFE /* dungeon_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D0D5BBB239C9ADA00137CFE /* dungeon_01.jpg */; };
+		5D0D5BBF239D3B6600137CFE /* texture_shaderf.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D0D5BBD239D3B6600137CFE /* texture_shaderf.glsl */; };
+		5D0D5BC0239D3B6600137CFE /* texture_shaderv.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D0D5BBE239D3B6600137CFE /* texture_shaderv.glsl */; };
+		5D0D5BC2239D47AC00137CFE /* mixture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D0D5BC1239D47AC00137CFE /* mixture.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D0779E7239B36E600EDE923 /* OpenGL-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D0779EA239B36E600EDE923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5D0779EB239B36E600EDE923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5D0779ED239B36E600EDE923 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5D0779EE239B36E600EDE923 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5D0779F1239B36E600EDE923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5D0779F3239B36E800EDE923 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D0779F6239B36E800EDE923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5D0779F8239B36E800EDE923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D0779F9239B36E800EDE923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D077A00239B3CE700EDE923 /* OpenGLOneController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLOneController.h; sourceTree = "<group>"; };
+		5D077A01239B3CE700EDE923 /* OpenGLOneController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLOneController.m; sourceTree = "<group>"; };
+		5D077A03239B402A00EDE923 /* OpenGLTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLTwoController.h; sourceTree = "<group>"; };
+		5D077A04239B402A00EDE923 /* OpenGLTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenGLTwoController.m; sourceTree = "<group>"; };
+		5D077A08239B472B00EDE923 /* MyGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyGLView.h; sourceTree = "<group>"; };
+		5D077A09239B472B00EDE923 /* MyGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGLView.m; sourceTree = "<group>"; };
+		5D077A0B239BA27E00EDE923 /* GLESUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GLESUtils.h; sourceTree = "<group>"; };
+		5D077A0C239BA27E00EDE923 /* GLESUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
+		5D077A0E239BAE6900EDE923 /* shaderf.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shaderf.glsl; sourceTree = "<group>"; };
+		5D077A0F239BAE6900EDE923 /* shaderv.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shaderv.glsl; sourceTree = "<group>"; };
+		5D0D5BB7239C8C4800137CFE /* TextureGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureGLView.h; sourceTree = "<group>"; };
+		5D0D5BB8239C8C4800137CFE /* TextureGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureGLView.m; sourceTree = "<group>"; };
+		5D0D5BBB239C9ADA00137CFE /* dungeon_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dungeon_01.jpg; sourceTree = "<group>"; };
+		5D0D5BBD239D3B6600137CFE /* texture_shaderf.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texture_shaderf.glsl; sourceTree = "<group>"; };
+		5D0D5BBE239D3B6600137CFE /* texture_shaderv.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = texture_shaderv.glsl; sourceTree = "<group>"; };
+		5D0D5BC1239D47AC00137CFE /* mixture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mixture.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D0779E4239B36E600EDE923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D0779DE239B36E600EDE923 = {
+			isa = PBXGroup;
+			children = (
+				5D0779E9239B36E600EDE923 /* OpenGL-OC */,
+				5D0779E8239B36E600EDE923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D0779E8239B36E600EDE923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D0779E7239B36E600EDE923 /* OpenGL-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D0779E9239B36E600EDE923 /* OpenGL-OC */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D5BBA239C9ACC00137CFE /* Source */,
+				5D077A12239BF62200EDE923 /* Publish */,
+				5D077A06239B46C800EDE923 /* Modules */,
+				5D0779EA239B36E600EDE923 /* AppDelegate.h */,
+				5D0779EB239B36E600EDE923 /* AppDelegate.m */,
+				5D0779ED239B36E600EDE923 /* ViewController.h */,
+				5D0779EE239B36E600EDE923 /* ViewController.m */,
+				5D0779F0239B36E600EDE923 /* Main.storyboard */,
+				5D0779F3239B36E800EDE923 /* Assets.xcassets */,
+				5D0779F5239B36E800EDE923 /* LaunchScreen.storyboard */,
+				5D0779F8239B36E800EDE923 /* Info.plist */,
+				5D0779F9239B36E800EDE923 /* main.m */,
+				5D077A00239B3CE700EDE923 /* OpenGLOneController.h */,
+				5D077A01239B3CE700EDE923 /* OpenGLOneController.m */,
+				5D077A03239B402A00EDE923 /* OpenGLTwoController.h */,
+				5D077A04239B402A00EDE923 /* OpenGLTwoController.m */,
+			);
+			path = "OpenGL-OC";
+			sourceTree = "<group>";
+		};
+		5D077A06239B46C800EDE923 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D5BB0239C8A8D00137CFE /* Texture */,
+				5D077A07239B470000EDE923 /* Trangle */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		5D077A07239B470000EDE923 /* Trangle */ = {
+			isa = PBXGroup;
+			children = (
+				5D077A0E239BAE6900EDE923 /* shaderf.glsl */,
+				5D077A0F239BAE6900EDE923 /* shaderv.glsl */,
+				5D077A08239B472B00EDE923 /* MyGLView.h */,
+				5D077A09239B472B00EDE923 /* MyGLView.m */,
+			);
+			path = Trangle;
+			sourceTree = "<group>";
+		};
+		5D077A12239BF62200EDE923 /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				5D077A0B239BA27E00EDE923 /* GLESUtils.h */,
+				5D077A0C239BA27E00EDE923 /* GLESUtils.m */,
+			);
+			path = Publish;
+			sourceTree = "<group>";
+		};
+		5D0D5BB0239C8A8D00137CFE /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D5BBD239D3B6600137CFE /* texture_shaderf.glsl */,
+				5D0D5BBE239D3B6600137CFE /* texture_shaderv.glsl */,
+				5D0D5BB7239C8C4800137CFE /* TextureGLView.h */,
+				5D0D5BB8239C8C4800137CFE /* TextureGLView.m */,
+			);
+			path = Texture;
+			sourceTree = "<group>";
+		};
+		5D0D5BBA239C9ACC00137CFE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D5BC1239D47AC00137CFE /* mixture.jpg */,
+				5D0D5BBB239C9ADA00137CFE /* dungeon_01.jpg */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D0779E6239B36E600EDE923 /* OpenGL-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D0779FD239B36E800EDE923 /* Build configuration list for PBXNativeTarget "OpenGL-OC" */;
+			buildPhases = (
+				5D0779E3239B36E600EDE923 /* Sources */,
+				5D0779E4239B36E600EDE923 /* Frameworks */,
+				5D0779E5239B36E600EDE923 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL-OC";
+			productName = "OpenGL-OC";
+			productReference = 5D0779E7239B36E600EDE923 /* OpenGL-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D0779DF239B36E600EDE923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "陈江林";
+				TargetAttributes = {
+					5D0779E6239B36E600EDE923 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5D0779E2239B36E600EDE923 /* Build configuration list for PBXProject "OpenGL-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D0779DE239B36E600EDE923;
+			productRefGroup = 5D0779E8239B36E600EDE923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D0779E6239B36E600EDE923 /* OpenGL-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D0779E5239B36E600EDE923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0779F7239B36E800EDE923 /* LaunchScreen.storyboard in Resources */,
+				5D0D5BC0239D3B6600137CFE /* texture_shaderv.glsl in Resources */,
+				5D0D5BBC239C9ADA00137CFE /* dungeon_01.jpg in Resources */,
+				5D077A10239BAE6900EDE923 /* shaderf.glsl in Resources */,
+				5D0D5BC2239D47AC00137CFE /* mixture.jpg in Resources */,
+				5D0D5BBF239D3B6600137CFE /* texture_shaderf.glsl in Resources */,
+				5D0779F4239B36E800EDE923 /* Assets.xcassets in Resources */,
+				5D0779F2239B36E600EDE923 /* Main.storyboard in Resources */,
+				5D077A11239BAE6900EDE923 /* shaderv.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D0779E3239B36E600EDE923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0779EF239B36E600EDE923 /* ViewController.m in Sources */,
+				5D0D5BB9239C8C4800137CFE /* TextureGLView.m in Sources */,
+				5D077A0D239BA27E00EDE923 /* GLESUtils.m in Sources */,
+				5D077A0A239B472B00EDE923 /* MyGLView.m in Sources */,
+				5D0779FA239B36E800EDE923 /* main.m in Sources */,
+				5D0779EC239B36E600EDE923 /* AppDelegate.m in Sources */,
+				5D077A02239B3CE700EDE923 /* OpenGLOneController.m in Sources */,
+				5D077A05239B402A00EDE923 /* OpenGLTwoController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D0779F0239B36E600EDE923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0779F1239B36E600EDE923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5D0779F5239B36E800EDE923 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D0779F6239B36E800EDE923 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D0779FB239B36E800EDE923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D0779FC239B36E800EDE923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D0779FE239B36E800EDE923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NPZ3HL8S7P;
+				INFOPLIST_FILE = "OpenGL-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaffle.OpenGL-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D0779FF239B36E800EDE923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NPZ3HL8S7P;
+				INFOPLIST_FILE = "OpenGL-OC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vaffle.OpenGL-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D0779E2239B36E600EDE923 /* Build configuration list for PBXProject "OpenGL-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0779FB239B36E800EDE923 /* Debug */,
+				5D0779FC239B36E800EDE923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D0779FD239B36E800EDE923 /* Build configuration list for PBXNativeTarget "OpenGL-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D0779FE239B36E800EDE923 /* Debug */,
+				5D0779FF239B36E800EDE923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D0779DF239B36E600EDE923 /* Project object */;
+}

@@ -19,6 +19,7 @@
 		5D077A0D239BA27E00EDE923 /* GLESUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D077A0C239BA27E00EDE923 /* GLESUtils.m */; };
 		5D077A10239BAE6900EDE923 /* shaderf.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D077A0E239BAE6900EDE923 /* shaderf.glsl */; };
 		5D077A11239BAE6900EDE923 /* shaderv.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D077A0F239BAE6900EDE923 /* shaderv.glsl */; };
+		5D0A13F4239E954C0049657D /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D0A13F3239E954C0049657D /* test.jpg */; };
 		5D0D5BB9239C8C4800137CFE /* TextureGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D0D5BB8239C8C4800137CFE /* TextureGLView.m */; };
 		5D0D5BBC239C9ADA00137CFE /* dungeon_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5D0D5BBB239C9ADA00137CFE /* dungeon_01.jpg */; };
 		5D0D5BBF239D3B6600137CFE /* texture_shaderf.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 5D0D5BBD239D3B6600137CFE /* texture_shaderf.glsl */; };
@@ -47,6 +48,7 @@
 		5D077A0C239BA27E00EDE923 /* GLESUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GLESUtils.m; sourceTree = "<group>"; };
 		5D077A0E239BAE6900EDE923 /* shaderf.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shaderf.glsl; sourceTree = "<group>"; };
 		5D077A0F239BAE6900EDE923 /* shaderv.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shaderv.glsl; sourceTree = "<group>"; };
+		5D0A13F3239E954C0049657D /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
 		5D0D5BB7239C8C4800137CFE /* TextureGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureGLView.h; sourceTree = "<group>"; };
 		5D0D5BB8239C8C4800137CFE /* TextureGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextureGLView.m; sourceTree = "<group>"; };
 		5D0D5BBB239C9ADA00137CFE /* dungeon_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dungeon_01.jpg; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		5D0D5BBA239C9ACC00137CFE /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				5D0A13F3239E954C0049657D /* test.jpg */,
 				5D0D5BC1239D47AC00137CFE /* mixture.jpg */,
 				5D0D5BBB239C9ADA00137CFE /* dungeon_01.jpg */,
 			);
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D0779F7239B36E800EDE923 /* LaunchScreen.storyboard in Resources */,
+				5D0A13F4239E954C0049657D /* test.jpg in Resources */,
 				5D0D5BC0239D3B6600137CFE /* texture_shaderv.glsl in Resources */,
 				5D0D5BBC239C9ADA00137CFE /* dungeon_01.jpg in Resources */,
 				5D077A10239BAE6900EDE923 /* shaderf.glsl in Resources */,
